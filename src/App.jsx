@@ -1,11 +1,14 @@
 import Gallary from "./components/Gallary"
+import TodoList from "./components/TodoList"
+
 
 function App() {
 
 
   return (
    <div>
-      <Gallary/>
+
+    <TodoList />
    </div>
   )
 }

@@ -1,21 +1,11 @@
-function Profile(){
-  return(
-    <img
-    src="https://i.imgur.com/MK3eW3As.jpg"
-    alt="Katherine Johnson"
-  />
+const avatar = "https://i.imgur.com/7vQD0fPs.jpg";
+const  name = "hello"
+  
+export default function Gallary (){
+  return (
+    <div>
+      <img src={avatar} alt={name} className="avatar" />
+      <h1>This is scientist</h1>
+    </div>
   );
-}
-
-export default function Gallary(){
-
-  return(
-    <section>
-      <h2>Amazing Scienctist</h2>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-
 }
